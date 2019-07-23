@@ -1,0 +1,18 @@
+.image-circle{
+    border-radius:50%;
+}
+
+.color-red{
+    color:#fa0600 !important;
+}
+
+.cta-button{
+    background: linear-gradient(to top right,$primary-dark,$primary-light);
+    background: linear-gradient(62deg,$primary-dark 0,$primary-light 100%);
+    padding:1rem 2.5rem;
+    border: none;
+    border-radius: 10rem;
+    color: #fff;
+    box-shadow: 6px 5px 12px 0 rgba(0,0,0,.12);
+
+}
