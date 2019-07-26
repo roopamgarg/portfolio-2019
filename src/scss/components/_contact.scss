@@ -1,0 +1,53 @@
+.contact{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
+    transition: all .2s;
+    background:  linear-gradient(135deg, #92dbf3 0%, #3c66ab 100%);
+    color: $color-white;
+    animation: slideInRightMenu .5s ;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-family: 'GothamLight', sans-serif;
+    font-weight: 100;
+    &__links{
+        display: flex;
+        justify-content: center;
+        a{
+            display: block;
+            font-size: 4rem;
+            padding: 2rem;
+            
+            color: $color-white;
+     transition: all 1s;
+        &:hover{
+            
+            color: #92dbf3;
+
+        }
+         
+        }
+    }
+    &__details{
+        background: linear-gradient(135deg,  #92dbf3 0%, #3c66ab 50%,#fff 50%);
+        background-size: 250%;
+        background-position: 100%;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        padding: 2rem 0;
+        font-size: 5rem !important;
+       letter-spacing: .5rem;
+
+        transition: all 1s;
+        &:hover{
+            font-size: 4rem !important;
+            background-position: 0%;
+
+        }
+    }
+}
+

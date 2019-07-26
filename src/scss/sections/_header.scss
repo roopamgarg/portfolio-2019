@@ -1,0 +1,27 @@
+.section-header{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.animate-left{
+    animation: slideInLeft .5s ;
+}
+.animate-right{
+    animation: slideInRight .5s ;
+}
+.show-header.section-header{
+    display: flex;
+    
+}
+
+ .show-menu.menu{
+     display: flex;
+    
+ }
+ .show-contact.contact{
+    display: flex;
+ }
