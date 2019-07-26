@@ -1,0 +1,52 @@
+.menu{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
+    transition: all .2s;
+    background:  linear-gradient(135deg, #fcd560 0%, #f76b1c 100%);;
+    
+    animation: slideInLeftMenu .5s ;
+    animation-fill-mode: forwards;
+    &__links{
+        text-align: center;
+    }
+    &__link{
+        background: linear-gradient(135deg, #fcd560 0%, #f76b1c 50%,#fff 50%);
+        background-size: 250%;
+        background-position: 100%;
+        -webkit-background-clip: text;
+        padding: 1rem;
+        font-family: 'GothamLight', sans-serif;
+        color: transparent;
+        text-transform: uppercase;
+        display: block;
+        font-size: 5rem;
+       // line-height: 10rem;
+       letter-spacing: .5rem;
+        font-weight: 100;
+        transition: all 1s;
+
+        &:hover{
+            font-size: 4rem;
+            background-position: 0%;
+        }
+
+    }
+}
+
+
+.icon.back{
+    width: 41px;
+    height: 9px;
+    
+    mask-image:url('./assets/images/download.svg');
+    mask-size: contain;
+    background-color: rgb(102, 102, 102);
+    -webkit-mask-size: contain;
+}
+.icon.back.flipped{
+    transform: rotate(-180deg);
+}

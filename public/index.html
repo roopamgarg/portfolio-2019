@@ -20,9 +20,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <link href="https://fonts.googleapis.com/css?family=Anaheim|Charm&display=swap" rel="stylesheet">
-  </head>
-  <style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300|Montserrat:900i&display=swap" rel="stylesheet">  <style>
   #fluid-canvas{
     width:100vw;
     height: 100vh;
@@ -36,6 +36,7 @@
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="cursor"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -47,6 +48,22 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  
   <script src="./background.js"></script>
+  <script>
+      const cursor = document.querySelector(".cursor");
+   
+      document.addEventListener("mousemove",e =>{
 
+        console.log("x"+e.pageX,"y"+e.pageY)
+        cursor.setAttribute("style",`top:${e.pageY -10 }px;left:${e.pageX-10 }px;`)
+     
+      }) 
+      document.addEventListener('mouserelease',e =>{
+
+document.querySelector('body').setAttribute("style","cursor:none")
+}) 
+   
+      
+    </script>
 </html>

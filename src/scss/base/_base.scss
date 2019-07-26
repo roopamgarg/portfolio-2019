@@ -22,18 +22,51 @@ html {
     
     @include respond(big-desktop) {
         font-size: 75%; //1rem = 12, 12/16
+
     }
    
+}
+
+.cursor{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top:0;
+    left:0;
+    z-index: -1;
+   transition: all .2s;
+
+    border-radius: 50%;
+    //border: 1px solid #fff;
+    background: #a55ccd;
+    transition-duration: 0ms;
+    transition-timing-function: ease-out;
+    transition : height .2s,width .2s;
+}
+
+@font-face {
+    font-family: "GothamLight";
+    font-weight: 100;
+    // src: url("assets/fonts/11446.otf") format("opentype");
+ src:url("assets/fonts/GothamLight.ttf") format("truetype");
+
 }
 
 body {
     box-sizing: border-box;
     padding: 0rem;
+    height: 100vh;
+    overflow: hidden;
     font-size: 1.6rem;
     overflow-x: hidden;
     width: 100vw;
     font-family: "open sans";
-    
+    cursor: scroll;;
+}
+body:active .cursor{
+    height: 10px;
+    width: 10px;
+    transform-origin: center;
 }
 a{
     text-decoration: none;
