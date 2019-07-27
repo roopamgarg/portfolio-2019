@@ -1,0 +1,56 @@
+.project{
+  
+    overflow: scroll;
+    &__card{
+       
+        margin: 10vh 10vw;
+        height: 80vh;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__card.flipped{
+        flex-wrap: wrap-reverse;
+    }    &__content{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+    &__type{
+        color: #5c5c5c;
+    }
+    &__name{
+        font-size: 3rem;
+        font-weight: 900;
+
+  font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     padding: 1.5rem 0;
+        color: #fff;
+    }
+    &__description{
+        color: #fff;
+
+    }
+    &__image{
+        height: 100%;
+
+        img{
+        transition: all .2s;
+            height: 100%;
+
+            
+        }
+        overflow: hidden;
+        transition: all .5s;
+        &:hover img{
+          transform: scale(1.03);
+          transform-origin: center;
+        }
+
+    }
+}
