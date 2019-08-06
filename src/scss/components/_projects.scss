@@ -1,21 +1,17 @@
 .project{
   
-  //  overflow: scroll;
-    display: flex;
-    flex-direction: column;
+    overflow: scroll;
     &__card{
        
-        padding: 10vh 10vw;
-        height: 100vh;
+        margin: 10vh 10vw;
+        height: 80vh;
         width: 80vw;
         display: flex;
         align-items: center;
     }
     
     &__card.flipped{
-       flex-direction: row-reverse;
-       align-self: flex-end;
-
+        flex-wrap: wrap-reverse;
     }    &__content{
         flex:1;
         display: flex;

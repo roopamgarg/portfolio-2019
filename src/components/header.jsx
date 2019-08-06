@@ -2,7 +2,6 @@ import React, { useState }  from "react";
 import Tilt from "react-tilt";
 import Menu from "./menu";
 import Contact from './contact'
-import Project from './projects';
 export default () =>{
   const [content, setcontent] = useState("header");
   const [headerAnimation, setAnimation] = useState("animate-left");
@@ -41,16 +40,13 @@ export default () =>{
             <h1 class="header__heading">Roopam Garg</h1>
             <p class="header__para">Web Developer</p>
         </Tilt>
-        
-    
+     
      
       </div>
-      
-      
       <div class="header__menu right">
-        <p>Content</p>
+        <p>Menu</p>
         <div className="header__menu--blue" onClick={setContact}>
-          <p>Content</p>
+          <p>Menu</p>
         </div>
       </div>
     </header>
