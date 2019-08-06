@@ -36,7 +36,7 @@
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <div class="cursor"></div>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -51,19 +51,21 @@
   
   <script src="./background.js"></script>
   <script>
-      const cursor = document.querySelector(".cursor");
+//       const cursor = document.querySelector(".cursor");
    
-      document.addEventListener("mousemove",e =>{
+//       document.addEventListener("mousemove",e =>{
 
-        console.log("x"+e.pageX,"y"+e.pageY)
-        cursor.setAttribute("style",`top:${e.pageY -10 }px;left:${e.pageX-10 }px;`)
+//         console.log("x"+e.pageX,"y"+e.pageY)
+//         cursor.setAttribute("style",`top:${e.pageY -10 }px;left:${e.pageX-10 }px;`)
      
-      }) 
-      document.addEventListener('mouserelease',e =>{
+//       }) 
+//       document.addEventListener('mouserelease',e =>{
 
-document.querySelector('body').setAttribute("style","cursor:none")
-}) 
+// document.querySelector('body').setAttribute("style","cursor:none")
+// }) 
    
       
     </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.0/lottie.js'></script>
 </html>
+

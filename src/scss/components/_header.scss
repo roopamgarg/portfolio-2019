@@ -1,8 +1,8 @@
 .header {
 
-  flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
-
+  // flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+  
   &__menu {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +12,6 @@
     padding: 1rem;
     align-items: center;
     
-
     p {
       transform: rotate(-90deg);
       color: #666666;
@@ -95,9 +94,10 @@
 
     transition: all .2s;
 
+    
     @include respond(tab-land) {
       // width < 1200?
-      font-size: 3rem; //1 rem = 9px, 9/16 
+      font-size: 8rem; //1 rem = 9px, 9/16 
     }
 
     &:hover {

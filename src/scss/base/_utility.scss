@@ -13,10 +13,13 @@
     border: none;
     border-radius: 10rem;
     color: #fff;
+
     box-shadow: 6px 5px 12px 0 rgba(0,0,0,.12);
 
 }
-
+.icon.flipped{
+    transform: rotate(-180deg);
+}
 .width-0{
    flex-basis: 0;
    overflow: hidden;
