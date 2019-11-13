@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="41px" height="9px" viewBox="0 0 41 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>back icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
-            <stop stop-color="#4A90E2" offset="0%"></stop>
-            <stop stop-color="#2A80EF" offset="45.6584651%"></stop>
-            <stop stop-color="#056DFF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="MENU" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-699.000000, -36.000000)">
-        <polygon id="back-icon" fill="url(#linearGradient-1)" fill-rule="nonzero" points="704.912265 43.7142958 703.598444 45 699 40.4999647 703.598372 36 704.912213 37.2857244 702.556533 39.590992 739.999985 39.5906362 740 41.4092791 702.556547 41.408992"></polygon>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="9" version="1.1" viewBox="0 0 41 9"><title>back icon</title><desc>Created with Sketch.</desc><defs><linearGradient id="linearGradient-1" x1="100%" x2="0%" y1="50%" y2="50%"><stop offset="0%" stop-color="#4A90E2"/><stop offset="45.658%" stop-color="#2A80EF"/><stop offset="100%" stop-color="#056DFF"/></linearGradient></defs><g id="MENU" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(-699.000000, -36.000000)"><polygon id="back-icon" fill="url(#linearGradient-1)" fill-rule="nonzero" points="704.912 43.714 703.598 45 699 40.5 703.598 36 704.912 37.286 702.557 39.591 740 39.591 740 41.409 702.557 41.409"/></g></svg>
